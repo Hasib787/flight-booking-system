@@ -1,11 +1,11 @@
-
-import Header from './components/Header/Header'
+import background from './assets/Hero-Banner.webp'
+import Home from './components/Home/Home'
 
 function App() {
   return (
-    <>
-      <Header />
-    </>
+    <div style={{ backgroundImage: `url(${background})` }}>
+      <Home />
+    </div>
   )
 }
 
