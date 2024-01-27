@@ -1,4 +1,8 @@
+import './Home.css'
 import Header from '../Header/Header'
+import frame from '../../assets/icons/Frame.svg'
+import vector from '../../assets/icons/Vector1.svg'
+import vector3 from '../../assets/icons/Vector3.svg'
 
 const Home = () => {
   return (
@@ -12,7 +16,7 @@ const Home = () => {
               <div className="des-from">
                 <p>Destination From</p>
                 <div className="flex flex-row">
-                  <img src="./img/icons/Frame.svg" alt="" />
+                  <img src={frame} alt="" />
                   <select
                     className="outline-none px-2 py-2 w-full"
                     name="from"
@@ -34,7 +38,7 @@ const Home = () => {
               <div className="des-from">
                 <p>Destination To</p>
                 <div className="flex flex-row">
-                  <img src="./img/icons/Frame.svg" alt="" />
+                  <img src={frame} alt="" />
                   <select
                     className="outline-none px-2 py-2 w-full"
                     name="to"
@@ -68,7 +72,7 @@ const Home = () => {
               <div className="des-from">
                 <p>Guests</p>
                 <div className="flex flex-row">
-                  <img src="./img/icons/Vector (1).svg" alt="" />
+                  <img src={vector} alt="" />
                   <select
                     className="outline-none px-2 py-2 w-full"
                     name="guests"
@@ -90,7 +94,7 @@ const Home = () => {
               <div className="des-from !border-r-0">
                 <p>className</p>
                 <div className="flex flex-row">
-                  <img src="./img/icons/Vector (3).svg" alt="" />
+                  <img src={vector3} alt="" />
                   <select
                     className="outline-none px-2 py-2 w-full"
                     name="ticketclassName"
